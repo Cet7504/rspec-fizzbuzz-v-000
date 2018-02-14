@@ -6,5 +6,6 @@ def fizzbuzz(int)
   end
   if int % fizz_5 == 0
     "Buzz"
+    binding.pry
   end
 end
